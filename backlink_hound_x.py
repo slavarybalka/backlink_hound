@@ -31,7 +31,7 @@ f = open('/Users/slava.rybalka/Documents/Pyscripts/list_of_our_sites.txt')
 list_of_our_sites = f.read().splitlines()
 f.close()
 
-f2 = open('/Users/slava.rybalka/Documents/Pyscripts/list_of_referring_sites_1000plus.txt')
+f2 = open('/Users/slava.rybalka/Documents/Pyscripts/list_of_referring_pages.txt')
 #f2 = open('/Users/slava.rybalka/Documents/Pyscripts/sample_set.txt')
 
 list_of_their_sites = f2.read().splitlines()
